@@ -66,16 +66,19 @@ Conan же помогает управлять версиями библиоте
 ##### После откройте пуск и найдите программу "PowerShell" или через  win + r написать "PowerShell" 
 ##### Потом переходим по пути C:\%User%\indiv_project\build и выполняем следующие команды.
 
-  <br>1.```
+  <br>1.
+      ```
      Remove-Item CMakeCache.txt
      ```
-  <br>2. ``` 
+  <br>2. 
+      ``` 
     Remove-Item -Recurse -Force CMakeFiles 
      ```
-  <br>3. После этого запускаем ```
+  <br>3. После этого запускаем 
+      ```
      cmake -B . -S .. 
      ```
-  4. И сново билдим проект
+  <br>4. И сново билдим проект
   
     ``` 
      cmake --build . --config Release 
