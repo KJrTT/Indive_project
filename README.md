@@ -170,7 +170,7 @@ cmake -B build -S .
 cmake --build build --config Release
 ```
 3. Скачать zip-папку из 'Releases'
--[Releases](https://github.com/KJrTT/Indive_project/releases)
+- [Releases](https://github.com/KJrTT/Indive_project/releases)
 ### Решение проблем сборки
 
 Если возникают проблемы при сборке:
