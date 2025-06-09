@@ -157,7 +157,7 @@ git clone https://github.com/yourusername/NetGuardian.git
 cd NetGuardian
 ```
 
-2. Сборка через CMake:
+2. Сборка через CMake (Делается через Powershell):
 ```powershell
 # Очистка кэша CMake (если необходимо)
 Remove-Item CMakeCache.txt
