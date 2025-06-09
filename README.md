@@ -167,7 +167,7 @@ Remove-Item -Recurse -Force CMakeFiles
 cmake -B . -S ..
 
 # Сборка
-cmake --build build --config Release
+cmake --build . --config Release
 ```
 3. Скачать zip-папку из 'Releases'
 - [Releases](https://github.com/KJrTT/Indive_project/releases)
