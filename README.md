@@ -164,7 +164,7 @@ Remove-Item CMakeCache.txt
 Remove-Item -Recurse -Force CMakeFiles
 
 # Генерация проекта
-cmake -B build -S .
+cmake -B . -S ..
 
 # Сборка
 cmake --build build --config Release
