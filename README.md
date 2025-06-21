@@ -251,7 +251,8 @@ cmake --build build --config Release
 [doctest] assertions: 20 | 20 passed | 0 failed |
 [doctest] Status: SUCCESS!
 ```
-![Uploading UnitTest.png…]()
+![UnitTest](https://github.com/user-attachments/assets/b8e8a113-0395-4d83-ab58-1512c4294348)
+
 
 ## Установка и сборка
 ### Требования
