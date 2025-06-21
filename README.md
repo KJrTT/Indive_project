@@ -228,7 +228,7 @@ NetworkTrafficMonitor - это приложение для мониторинг�
 
 2. Сборка через CMake (Делается через Powershell):
 ```powershell
-# Очистка кэша CMake (если необходимо)
+# Очистка кэша CMake
 Remove-Item CMakeCache.txt
 Remove-Item -Recurse -Force CMakeFiles
 
@@ -238,7 +238,7 @@ cmake -B . -S ..
 # Сборка
 cmake --build . --config Release
 ```
-
+**Будет по пути C:\Users\Name_user\indiv_project\build\Release**
 ### Решение проблем сборки
 
 Если возникают проблемы при сборке:
