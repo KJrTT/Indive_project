@@ -223,11 +223,8 @@ NetGuardian - это приложение для мониторинга сост
 
 ### Сборка проекта
 
-1. Клонирование репозитория:
-```bash
-git clone [https://github.com/yourusername/NetGuardian.git](https://github.com/KJrTT/Indive_project.git) -b BetaApplication
-cd NetGuardian
-```
+1. Скачать zip-папку из 'Releases'
+- [Releases](https://github.com/KJrTT/Indive_project/releases)
 
 2. Сборка через CMake (Делается через Powershell):
 ```powershell
@@ -241,8 +238,7 @@ cmake -B . -S ..
 # Сборка
 cmake --build . --config Release
 ```
-3. Скачать zip-папку из 'Releases'
-- [Releases](https://github.com/KJrTT/Indive_project/releases)
+
 ### Решение проблем сборки
 
 Если возникают проблемы при сборке:
@@ -255,11 +251,10 @@ cmake --build . --config Release
 
 1. Запустите приложение с правами администратора
 2. Выберите сетевой интерфейс для мониторинга
-3. Настройте параметры сохранения (SQLite/CSV)
-4. При необходимости включите ИИ-анализ
-5. Нажмите "Start" для начала мониторинга
+3. При необходимости включите ИИ-анализ
+4. Нажмите "Start" для начала мониторинга
 
 ### Примечания
 - Для полной функциональности требуются права администратора
-- ИИ-анализ требует наличия модели `traffic_model.onnx`
+- ИИ-анализ требует наличия модели `new_traffic_model.onnx`
 - Рекомендуется использовать SSD для сохранения логов при интенсивном трафике
